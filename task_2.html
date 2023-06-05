@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ethnus Layout</title>
+  <style>
+      body{
+      padding:8px;
+  }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: skyblue;
+      padding: 10px;
+      width: 8100px;
+      margin-block-end: 0px;
+    }
+
+    .shortcut-box {
+      display: flex;
+      justify-content: space-between;
+      background-color: lightgray;
+      padding: 10px;
+      width: 1420px;
+    }
+
+    .navigation-bar {
+      background-color: gray;
+      height: 100vh;
+      width: 200px;
+      position: absolute;
+      right: 0;
+      top: 165px;
+    }
+
+    .content {
+      text-align: right;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>Ethnus Layout</h3>
+    <div class="shortcut-box">
+      <div>
+        <a style="color: white;">Home</a>&nbsp&nbsp&nbsp&nbsp
+        <a style="color: white;">Menu</a>&nbsp&nbsp&nbsp&nbsp
+        <a style="color: white;">About</a>&nbsp&nbsp&nbsp&nbsp
+        <a style="color: white;">Contact</a>
+      </div>
+      <div>
+        <a style="color: white;">Sign Up</a>&nbsp&nbsp&nbsp&nbsp
+        <a style="color: white;">Log In</a>&nbsp&nbsp&nbsp&nbsp
+      </div>
+    </div>
+    <div class="navigation-bar"></div>
+    <div class="content">
+      <p>Write your content here</p>
+    </div>
+  </div>
+</body>
+</html>
